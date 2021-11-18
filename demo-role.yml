@@ -1,4 +1,4 @@
-- hosts: apps-server
+- hosts: web-server
   become: yes
   roles:
     - apache-server
